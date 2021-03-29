@@ -14,8 +14,8 @@ dessertVoting.onshow = function() {
 }
 
 
-drpDesserts.onclick = function() {
-      // this 'if' kicks user out if they  just clicked on control 
+drpDesserts.onclick = function(s) {
+      // this 'if' kicks user out if they just clicked on control 
       // but not on one item in the list.
       if (typeof(s) == "object")
             return
@@ -23,7 +23,7 @@ drpDesserts.onclick = function() {
             /* add code here to get item user chose and output 
             it in a label, using a literal.
             */
-           s = drpDesserts.value
+            drpDesserts.value =s 
             console.log(`You chose ${s} as your favorite dessert`)
       }
 }
