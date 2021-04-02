@@ -17,9 +17,9 @@
   "fontWeight": "",
   "height": "auto",
   "hidden": "",
-  "id": "lblPrompt",
+  "id": "lblDescribeYou",
   "labelStyle": "text",
-  "left": 70,
+  "left": 82,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -43,6 +43,6 @@
   "script": "",
   "style": "",
   "top": 220,
-  "value": "Pick a dessert from the dropdown menu",
-  "width": 192
+  "value": "Label",
+  "width": "auto"
 }

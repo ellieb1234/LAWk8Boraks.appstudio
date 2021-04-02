@@ -4,15 +4,11 @@ var dessertList = ['Chocolate Cake', 'Cream Brulee', 'Cheesecake',
 
 dessertVoting.onshow = function() {
       drpDesserts.clear()
-      /* add a loop here that adds all the desserts in the array 
-         to the dropdown.
-      */
       let x
       for (x=0; x<dessertList.length; x++) {
             drpDesserts.addItem(dessertList[x])
       }
 }
-
 
 drpDesserts.onclick = function(s) {
       // this 'if' kicks user out if they just clicked on control 
@@ -20,10 +16,10 @@ drpDesserts.onclick = function(s) {
       if (typeof(s) == "object")
             return
       else { // the user picked something
-            /* add code here to get item user chose and output 
-            it in a label, using a literal.
-            */
             drpDesserts.value =s 
-            console.log(`You chose ${s} as your favorite dessert`)
+            lblPrompt.value=`You chose ${s} as your favorite dessert`
       }
+}
+btnNext.onclick=function(){
+  ChangeForm(describeYou)
 }
