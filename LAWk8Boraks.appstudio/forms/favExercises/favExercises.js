@@ -24,3 +24,7 @@ btnSubmit.onclick = function() {
             }
       responses=[]
 }
+
+btnNext3.onclick=function(){
+      ChangeForm(mobileNav)
+}
