@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "btnNext2",
-  "left": 212,
+  "left": 180,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 390,
-  "value": "Button",
+  "top": 388,
+  "value": "favExercises",
   "width": "auto"
 }

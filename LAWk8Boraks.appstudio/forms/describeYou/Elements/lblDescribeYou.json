@@ -19,7 +19,7 @@
   "hidden": "",
   "id": "lblDescribeYou",
   "labelStyle": "text",
-  "left": 82,
+  "left": 35,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 220,
-  "value": "Label",
-  "width": "auto"
+  "top": 184,
+  "value": "Pick how you would describe yourself above",
+  "width": 227
 }
